@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">final_curso</string>
+    <string name="txt_correo">Correo </string>
+    <string name="txt_clave">Clave </string>
+    <string name="btn_iniciar">Iniciar </string>
+    <string name="Registrarme">Registrarme </string>
+    <string name="Olvidaste">¿Olvidaste tu clave? </string>
+    <string name="nombre_user">Jhonatan Ramirez </string>
+    <string name="correo_user">jhon0ramirez@gmail.com </string>
+    <string name="telefono_user">3203223249 </string>
+    <string name="categoria_user">Proesor </string>
+    <string name="consultar_user">Consultar</string>
+    <string name="editar_user">Editar</string>
+    <string name="nombre_producto">Camisa</string>
+    <string name="descripcion_producto">Camisa polo para caballero</string>
+<string name="action_settings" > Accion producto</string>
+</resources>

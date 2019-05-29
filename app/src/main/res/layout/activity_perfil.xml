@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Perfil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/user"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_nombre"
+            android:textAlignment="center"
+            android:text="@string/nombre_user"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_correo"
+            android:textAlignment="center"
+            android:text="@string/correo_user"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_telefono"
+            android:textAlignment="center"
+            android:text="@string/telefono_user"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_categoria"
+            android:textAlignment="center"
+            android:text="@string/categoria_user"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_editar"
+                android:text="@string/editar_user"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_consultar"
+                android:text="@string/consultar_user"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
